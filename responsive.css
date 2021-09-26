@@ -5,6 +5,7 @@
 }
 
 @media(max-width:670px){
+
   .lesson-wrapper{
     display:flex;
     justify-content: space-evenly;
@@ -27,9 +28,17 @@
   .footer{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
+    margin-right:110px;
 }
-.footer-list{
-  margin-left: 60px;
+
+.footer-list li{
+margin-left: 160px;
 }
+
+.footer-list a{
+  margin-left: 100px;
+  
+}
+
 }
