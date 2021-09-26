@@ -1,0 +1,177 @@
+* {
+  box-sizing:border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body,html{
+  margin: 0;
+    
+  width: 100%;
+  }
+  
+.header{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 20px;
+}
+.header h2{
+  text-align: center;
+  padding-bottom:20px;
+  padding-top: 20px;
+  
+}
+
+.container{
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.navbar{
+text-align: center;
+background-color: #26d0c9;
+width: 100%;
+}
+
+.navbar ul{
+  display: flex;
+  text-align: center;#26d0c9
+}
+.navbar a{
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  background-color: pink;
+}
+
+.navbar li{
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  flex: auto;
+}
+
+.top-wrapper{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px;
+}
+
+.container-btn{
+  margin: 50px;
+}
+
+.btn{
+  padding: 10px 30px;
+  background-color:#26d0c9;
+  text-decoration: none;
+  box-shadow: 0 7px #000;
+  cursor: pointer;
+}
+
+.btn:active{
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
+
+/*LESSON*/
+
+.lesson-wrapper{
+  width: 100%;
+  border-bottom:black solid 1px ;
+}
+.lessons{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  margin: auto;
+  justify-content: space-evenly;
+  
+}
+
+.lesson{
+  width: 29%;
+  background-color: #26d0c9;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.lesson a{
+  text-decoration: none;
+}
+.lesson2:hover {
+  background-color:pink ;
+}
+
+.lesson:hover {
+  background-color:pink ;
+}
+
+.lesson p,h3{
+  margin: 20px;
+}
+.lesson2 p,h3{
+  margin: 20px;
+}
+
+.lesson2{
+  width: 30%;
+  background-color: #26d0c9;
+  border-radius: 10px;
+  margin: 40px;
+  padding-bottom: 20px;
+}
+
+.lesson2 a{
+  text-decoration: none;
+}
+
+.seemore {
+  margin-left: 130px;
+}
+
+/*footer */
+
+.footer {
+  margin: 100px 10px;
+  height: 20px;
+}
+
+.footer-logo {
+  float:left;
+ 
+  font-family: 'comic sans ms';
+  font-size: 40px;
+}
+
+.footer-list {
+  float:right;
+}
+.footer-list p{
+  text-decoration: underline;
+}
+
+.footer-list ul{
+  margin-right: 100px;
+  list-style-type: none;
+}
+
+.footer-list a {
+  margin-left: 30px;
+  color: black;
+  font-weight: bold;
+}
